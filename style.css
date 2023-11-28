@@ -4,23 +4,53 @@
     margin: 0%;
     padding: 0%;
 }
+html , body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
 header{
     background-color: black;
-    height: 300px;
-    text-align: center;
-    padding: 2px;
-    align-items: center;
-}
-header h1{  
     color: white;
+    text-align: center;
+}
+header h1{
+    padding: 50px;
     font-family: 'Passion One';
-    font-size: 8em;
-    
 }
 header p{
+    padding-bottom: 50px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(41, 39, 39);
     color: white;
 }
-main p{
-    margin:20px;
-    
+section.imagem p {
+    background-color: rgba(0, 0, 0, 0.699);
+    width: 400px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
 }
